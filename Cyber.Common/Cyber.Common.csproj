@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>11</LangVersion>
+    <NoWarn>$(NoWarn);8632;CS3001;CS3003; CS3007;CS3008;</NoWarn>
+	<Copyright>Copyright © CCWonline li_yuelun</Copyright>
+	<PackageLicenseExpression></PackageLicenseExpression>
+	<OutputType>Library</OutputType>
+	<Version>1.0.0.1</Version>
+	<DocumentationFile>Cyber.Common.xml</DocumentationFile>
+	<Nullable>disable</Nullable>
+	<PackageId>Cyber.Common</PackageId>
+	<PackageIcon>logo.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<FrameworkReference Include="Microsoft.AspNetCore.App" PrivateAssets="all" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="logo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
